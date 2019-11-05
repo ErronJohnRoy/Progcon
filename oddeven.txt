@@ -1,0 +1,13 @@
+Function Main
+    Declare Integer number
+    Declare Integer oddeven
+    
+    Output "input your number"
+    Input number
+    Assign oddeven = number % 2
+    If oddeven == 0
+        Output number & "is even"
+    False:
+        Output number & "is odd"
+    End
+End

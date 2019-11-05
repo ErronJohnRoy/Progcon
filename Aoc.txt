@@ -1,0 +1,27 @@
+Function Main
+    Declare Integer Dia
+    Declare Integer Rad
+    Declare Integer Area
+    Declare String Ans
+    
+    Output "Welcome"
+    Output "Input your Area"
+    Input Area
+    Output "Would you like to use the Dia or Rad?"
+    Input Ans
+    If Ans = "Dia"
+        Output "Great, enter your diameter"
+        Input Dia
+        Assign Area = (3.14) * Dia * 2
+        Output "The area of the circle is " & Area
+        Output "Very nice ^_^ hope you enjoy"
+    False:
+        If Ans = "Rad"
+            Output "Great, enter your radius"
+            Input Rad
+            Assign Area = 3.14 * Rad * 2
+            Output "The area of the circle is " & Area
+        End
+        Output "Very nice ^_^ hope you enjoy"
+    End
+End
